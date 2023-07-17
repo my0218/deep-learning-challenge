@@ -1,5 +1,6 @@
 # deep-learning-challenge
 Overview of the Analysis:
+
 The purpose of this analysis is to develop a deep learning neural network model for Alphabet Soup, with the goal of predicting the success of funding applications. The model is trained on a preprocessed dataset containing various features and the target variable indicating the success of the funding applications. The analysis aimed to optimize the model's performance and accuracy through appropriate data preprocessing, model architecture selection, and hyperparameter tuning.
 
 Results:
