@@ -14,6 +14,7 @@ Target Model Performance: The target model performance was 72.5%
 Steps to Increase Model Performance: Several steps were taken to improve the model's performance: Increasing epochs, adding one more layers and using different activation functions. Unfortunately, none of these optimization method didn't increase the performace over 75%.
 
 Summary:
+
 The deep learning neural network model performed well in predicting the success of funding applications. The model's architecture was designed with two hidden layers and appropriate activation functions to capture complex patterns in the data. The achieved model performance, in terms of accuracy, met the target expectations.
 
 A recommendation for a different model to solve this classification problem would be to explore ensemble methods, such as random forest or gradient boosting. These techniques combine multiple models to improve prediction accuracy. Considering the availability of a diverse set of features, these ensemble methods could potentially leverage different aspects of the data to make more accurate predictions.
