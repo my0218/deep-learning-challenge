@@ -5,19 +5,17 @@ The purpose of this analysis is to develop a deep learning neural network model 
 Results:
 
 Data Preprocessing:
-
 Target Variable: The target variable for the model is "IS_SUCCESSFUL," which indicates the success (1) or failure (0) of funding applications.
 Features: The remaining variables in the dataset, excluding the target variable, are considered as features for the model.
 Variables to Remove: The "EIN" and "NAME" columns were removed from the input data as they were neither targets nor features.
-Compiling, Training, and Evaluating the Model:
-
-Neurons, Layers, and Activation Functions: For the neural network model, two hidden layers were chosen with 64 and 32 nodes, respectively. The first hidden layer used the 'relu' activation function, and the second hidden layer used the 'sigmoid' activation function. The output layer consisted of a single node with the 'sigmoid' activation function, suitable for binary classification tasks. These choices were made to allow the model to learn complex patterns while avoiding issues like vanishing gradients.
+Compiling, Training, and Evaluating the Model: Neurons, Layers, and Activation Functions: For the neural network model, two hidden layers were chosen with 80 and 30 nodes, respectively. The first hidden layer used the 'relu' activation function, and the second hidden layer used the 'sigmoid' activation function. The output layer consisted of a single node with the 'sigmoid' activation function, suitable for binary classification tasks. These choices were made to allow the model to learn complex patterns while avoiding issues like vanishing gradients.
 Target Model Performance: The target model performance was to achieve high accuracy in predicting the success of funding applications.
 Steps to Increase Model Performance: Several steps were taken to improve the model's performance:
 Data preprocessing: The input data was properly preprocessed, handling missing values, scaling features, and encoding categorical variables.
 Architecture selection: The model was designed with multiple hidden layers to capture intricate relationships in the data.
 Hyperparameter tuning: Various hyperparameters, such as learning rate, batch size, and regularization parameters, were tuned to optimize model performance.
 Evaluation and analysis: The model's performance was continuously evaluated on both training and validation datasets, allowing for adjustments and enhancements.
+
 Summary:
 The deep learning neural network model performed well in predicting the success of funding applications. The model's architecture was designed with two hidden layers and appropriate activation functions to capture complex patterns in the data. The achieved model performance, in terms of accuracy, met the target expectations.
 
